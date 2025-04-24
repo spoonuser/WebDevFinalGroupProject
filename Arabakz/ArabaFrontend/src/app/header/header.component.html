@@ -1,0 +1,18 @@
+<header class="header">
+  <div class="logo" routerLink="/home" >
+    <h1>Araba.kz</h1>
+  </div>
+  <div class="center">
+    <span routerLink="/cars">Vehicles</span>
+    <span routerLink="/charging">Charging</span>
+    <span routerLink="/article">Discover</span>
+    <span routerLink="/accessories">Accessories</span>
+    <span>All</span>
+  </div>
+  <div class="menu">
+    <i class="fas fa-user" style="color: #000000;" routerLink="/account" [routerLinkActive]="'menu-item-activated'"></i>
+    <i class="fas fa-heart" style="color: #000000;" routerLink="/favorites" [routerLinkActive]="'menu-item-activated'"></i>
+    <i class="fas fa-shopping-cart" style="color: #000000;" routerLink="/purchases" [routerLinkActive]="'menu-item-activated'"></i>
+  </div>
+</header>
+

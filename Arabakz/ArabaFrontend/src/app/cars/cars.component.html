@@ -1,0 +1,17 @@
+<h1>Car Information</h1>
+<table>
+    <thead>
+    <tr>
+        <th class = "th">Make</th>
+        <th class = "th">Model</th>
+        <th class = "th">Price</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let car of carData">
+        <td class="th"> {{ car.make }}</td>
+        <td class = "th">{{ car.model }}</td>
+        <td class = "th">{{ car.price }}</td>
+    </tr>
+    </tbody>
+</table>
